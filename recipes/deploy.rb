@@ -22,7 +22,7 @@ template node['inventory']['oraInst'] do
   mode '0644'
   variables(
     inventory_location: node['inventory']['location'],
-    group: node['inventory']['group']
+    inventory_group: node['inventory']['group']
   )
 end
 
