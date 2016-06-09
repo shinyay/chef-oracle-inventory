@@ -12,7 +12,13 @@ directory node['inventory']['location'] do
   owner node['inventory']['owner']
   group node['inventory']['group']
   recursive true
-  mode 0775
+  mode '0775'
+end
+
+directory node['inventory']['oraInst_dir'] do
+  owner node['inventory']['owner']
+  group node['inventory']['group']
+  mode '0775'
 end
 
 template node['inventory']['oraInst'] do
