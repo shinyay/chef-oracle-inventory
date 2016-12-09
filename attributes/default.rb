@@ -1,5 +1,5 @@
 default['inventory']['group'] = 'oinstall'
 default['inventory']['owner'] = 'oracle'
-default['inventory']['oraInst_dir'] = '/root/responsefile'
-default['inventory']['oraInst'] = '/root/responsefile/oraInst.loc'
+default['inventory']['oraInst_dir'] = '/home/oracle/responsefile'
+default['inventory']['oraInst'] = '/home/oracle/responsefile/oraInst.loc'
 default['inventory']['location'] = '/u01/app/oraInventory'
